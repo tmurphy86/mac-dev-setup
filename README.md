@@ -17,6 +17,7 @@ This repository contains a shell script (`setup_dev_env.sh`) to automate the con
   - htop
   - gh
   - awscli
+  - yarn
 
 ## 📋 Prerequisites
 

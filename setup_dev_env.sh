@@ -39,7 +39,7 @@ fi
 
 # Install essential development tools via Homebrew
 echo "Installing essential development tools..."
-for tool in git node python3 docker wget zsh jq htop gh awscli kubectl helm ngrok; do
+for tool in git node python3 docker wget zsh jq htop gh awscli yarn kubectl helm ngrok; do
   if ! brew_package_installed "$tool"; then
     echo "Installing $tool..."
     if ! brew install "$tool"; then 
