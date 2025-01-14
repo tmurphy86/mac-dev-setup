@@ -15,6 +15,8 @@ This repository contains a shell script (`setup_dev_env.sh`) to automate the con
   - Zsh
   - jq
   - htop
+  - gh
+  - awscli
 
 ## 📋 Prerequisites
 
@@ -50,6 +52,9 @@ Edit the script to customize:
 - Slack
 - Postman
 - Docker Desktop
+- Github CLI
+- AWS CLI
+- Terraform CLI
 
 ## 🛡️ Configurations
 
@@ -68,7 +73,6 @@ Edit the script to customize:
 ### Homebrew Verification
 
 `brew doctor`
-
 
 ## 🤝 Contributing
 
